@@ -1,0 +1,85 @@
+.slider_1 h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    flex-direction: column;
+
+    & .star_custom {
+        font-size: 23px;
+        gap: 8px;
+        display: flex;
+
+        & .icon_color {
+            color: #4128DD;
+        }
+    }
+
+    & strong {
+        text-align: center;
+    }
+
+    & .testimonial_content {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        & p {
+            margin: 0;
+        }
+
+        & .rounded_img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            padding-bottom: 33px;
+        }
+    }
+
+}
+
+.footer_testimonial {
+    background-color: #211F54;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .title_testimonial {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 57.6px;
+        color: #FFFFFF;
+        padding: 0 10px 0 10px;
+
+    }
+
+    & .btn_custom {
+        background-color: #7247EC;
+        color: #FCFAF7;
+        font-weight: 600;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        width: fit-content;
+        align-self: center;
+
+        &:hover {
+            background-color: #7347ec88;
+            color: #FCFAF7;
+
+
+        }
+    }
+}
